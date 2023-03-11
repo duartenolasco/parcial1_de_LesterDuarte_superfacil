@@ -1,0 +1,3 @@
+C:/Users/leste/OneDrive/Escritorio/parcial1lesterduarteserie2inciso2/cmake-build-debug/CMakeFiles/parcial1lesterduarteserie2inciso2.dir
+C:/Users/leste/OneDrive/Escritorio/parcial1lesterduarteserie2inciso2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/leste/OneDrive/Escritorio/parcial1lesterduarteserie2inciso2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

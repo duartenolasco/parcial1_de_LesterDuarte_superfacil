@@ -1,0 +1,84 @@
+switch(opción) //donde opción es la variable a comparar
+{
+    case valor1: //Bloque de instrucciones 1;
+    break;
+    case valor2: //Bloque de instrucciones 2;
+    break;
+    case valor3: //Bloque de instrucciones 3;
+    break;
+    //Nótese que valor 1 2 y 3 son los valores que puede tomar la opción
+    //la instrucción break es necesaria, para no ejecutar todos los casos.
+    default: //Bloque de instrucciones por defecto;
+    //default, es el bloque que se ejecuta en caso de que no se de ningún caso
+}
+
+// otro ejemplo es
+
+cout << "Ingrese la Opción a ejecutar: ";
+int opcion = 0;
+cin >> opcion;
+
+switch(opcion)
+{
+    case 1: cout << "Usted ha seleccionado la opción 1";
+    break;
+    case 2: cout << "Usted ha seleccionado la opción 2";
+    break;
+    case 3: cout << "Usted ha seleccionado la opción 3";
+    break;
+    default: cout << "Usted ha ingresado una opción incorrecta";
+}
+
+//otra opcion es
+
+# include "iostream"
+
+using namespace std;
+
+int main()
+{
+    cout << "Ingrese la Opción a ejecutar: ";
+    int opcion = 0;
+    cin >> opcion;
+
+    switch(opcion)
+    {
+        case 1: cout << "Usted ha seleccionado la opción 1";
+        break;
+        case 2: cout << "Usted ha seleccionado la opción 2";
+            break;
+        case 3: cout << "Usted ha seleccionado la opción 3";
+            break;
+        default: cout << "Usted ha ingresado una opción incorrecta";
+    }
+    // system("PAUSE"); //Solo ponla si no te da error
+
+    return 0;
+}
+
+
+//esta usare mejor de una vez
+# include "iostream"
+
+using namespace std;
+
+int main()
+{
+    cout << "Ingrese la Opción a ejecutar: ";
+    char opcion;
+    cin >> opcion;
+
+    switch(opcion)
+    {
+        case 'a': cout << "Usted ha seleccionado la opción a";
+            break;
+        case 'b': cout << "Usted ha seleccionado la opción b";
+            break;
+        case 'c': cout << "Usted ha seleccionado la opción c";
+            break;
+        default: cout << "Usted ha ingresado una opción incorrecta";
+    }
+    // system("PAUSE"); //Solo ponla si no te da error
+
+    return 0;
+}

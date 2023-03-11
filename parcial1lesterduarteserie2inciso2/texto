@@ -1,0 +1,16 @@
+/* hacer un procedimiento que despliegue la tabla de multiplicar
+ */
+#include <iostream>
+using namespace std;
+int main() {
+
+        int numero, multiplicacion, tabla5, tabla8, tabla9;
+        cout<<"Te mostrare las tablas de multiplicar del 5, 8 y 9 : "<<endl;
+        cin>>numero;
+
+        for(int i=1;i<=10;i++){
+            int multiplicacion = i * numero;
+            cout<< numero <<" x "<< i <<" = "<< multiplicacion <<endl;
+        }
+    return 0;
+}
